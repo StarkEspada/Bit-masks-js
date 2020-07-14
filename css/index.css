@@ -1,0 +1,109 @@
+body{
+	margin: 0
+}
+.box-GMT{
+	width: 800px;
+	border: 2px solid black;
+	margin: auto;
+	border-radius: 10px;
+	background-image: url(../img/фон.png);
+	background-size: 100%;
+}
+.container-time-zone{
+	width: 675px;
+	margin: auto;
+}
+.header{
+	width: 400px;
+    height: 50px;
+    border: 2px solid black;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size: 35px;
+    text-align: center;
+    background: #ffffffe0;
+    line-height: 50px;
+    border-radius: 10px;
+}
+.check-time-zone{
+	width: 60px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 15px;
+}
+.town-time-zone{
+    width: 550px;
+    height: 35px;
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    text-align: left;
+    font-size: 30px;
+    margin-top: 13px;
+    background: #ffffffe0;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.text-offset-greenwich{
+    width: 500px;
+    height: 50px;
+    border: 2px solid black;
+    background: #ffffffe0;
+    font-size: 45px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: 140px;
+    margin-top: 20px;
+}
+.input-greenwich-mean-time-offset-hour{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.input-greenwich-mean-time-offset-minutes{
+    width: 125px;
+    height: 50px;
+    border: 2px solid black;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.search-town{
+    width: 200px;
+    height: 55px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    font-size: 27px;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+    margin-left: 5px;
+}
+.container-found-cities{
+	width: 800px;
+	margin-top: 20px;
+	margin-left: 100px;
+}
+.result-town{
+    width: 610px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background: #ffffffe0;
+}
